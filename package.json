@@ -1,0 +1,32 @@
+{
+  "name": "juejinserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "supervisor ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  },
+  "description": "juejin articals",
+  "main": "app.js",
+  "keywords": [
+    "juejin"
+  ],
+  "author": "lori",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.4",
+    "express-session": "^1.15.5",
+    "express-useragent": "^1.0.7",
+    "jquery": "^3.2.1",
+    "mysql": "^2.14.1",
+    "swiper": "^3.4.2"
+  }
+}
